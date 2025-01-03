@@ -1,0 +1,9 @@
+{
+    "clearMocks": true,
+    "moduleNameMapper": {
+        "testMatch": [
+            "<rootDir>/src/"
+        ]
+    },
+    "preset": "ts-jest"
+}
