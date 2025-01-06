@@ -15,4 +15,7 @@ declare type GraphEdge = { to: number; weight: number };
 declare type WeightedAdjacencyList = GraphEdge[][];
 declare type WeightedAdjacencyMatrix = number[][]; // A number means weight
 
-
+declare interface ILRU<K, V> {
+  update(key: K, value: V): void;
+  get(key: K): V | undefined;
+}
